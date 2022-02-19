@@ -1,22 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Genos:300&display=swap');
 
-/*
-@media screen and (min-width:769px) {
 
+@media screen and (min-width:769px) {
+    :root {
+        --max-width: 50rem;
+        --padding: 1rem;
+    }
 }
 
 @media screen and (max-width:768px) {
-
-}*/
+    :root {
+        --max-width: 100%;
+        --padding: .5rem;
+    }
+}
 
 :root {
     --bgmain: rgb(25,20,25);
-    --bgcode: rgba(80,130,80,0.1);
+    --bgcode: rgba(100, 100, 30, 0.1);
     --bgquote: rgba(100,100,100,0.1);
     --fontmain: rgb(245,245,245);
-    --fontcode: rgb(150,240,150);
+    --fontcode: rgb(245, 245, 100);
 
-    --codeborder: rgba(180,200,180,0.8);
+    --codeborder: rgba(230, 230, 150, 0.8);
     --quoteborder: rgba(200,200,200,0.8);
     --codeshadow: .2rem .2rem rgba(0,10,0,0.1);
     --quoteshadow: .2rem .2rem rgba(0,0,0,0.1);
@@ -32,9 +38,9 @@ body {
 }
 
 div#main-container {
-    max-width: 50rem;
+    max-width: var(--max-width);
     margin: auto;
-    padding: 1rem;
+    padding: var(--padding);
     align-content: center;
     border-radius: 1rem;
 }
