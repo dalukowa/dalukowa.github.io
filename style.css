@@ -24,7 +24,7 @@
 
     --codeborder: rgba(230, 230, 150, 0.8);
     --quoteborder: rgba(200,200,200,0.8);
-    --codeshadow: .2rem .2rem rgba(0,10,0,0.1);
+    --codeshadow: .2rem .2rem rgba(5,5,0,0.1);
     --quoteshadow: .2rem .2rem rgba(0,0,0,0.1);
 }
 
@@ -32,8 +32,8 @@
 body {
     background-color: var(--bgmain);
     color: var(--fontmain);
-    font-size: 24px;
-    font-family: "Genos";
+    font-size: 1.5rem;
+    font-family: 'Genos';
     align-content: center;
 }
 
