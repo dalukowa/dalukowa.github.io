@@ -73,6 +73,8 @@ div.post {
 pre.code {
     font-size: 18px;
     font-family: "Courier New";
+    letter-spacing: -.05rem;
+    word-spacing: -.05rem;
     color: var(--fontcode);
     white-space: pre-wrap;
     word-wrap: break-word;
